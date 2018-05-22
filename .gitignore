@@ -1,0 +1,5 @@
+mosquitto/data/*
+nodered/lib/*
+nodered/*
+!nodered/Dockerfile
+!nodered/package.json

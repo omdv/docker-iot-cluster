@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    ports:
+      - 1883:1883
+    volumes:
+      - ./mosquitto:/mosquitto
+
+  edge:
+    build: ./edge
+    volumes:
+      - ./edge:/app
+    environment:
+      - MQTT_TOPIC=iot
+      - MQTT_KEEPALIVE_INTERVAL=45
+
+  town:
+    build: ./town
+    volumes:
+      - ./town:/app
+    environment:
+      - MQTT_TOPIC=iot
+      - MQTT_KEEPALIVE_INTERVAL=45
+
+  nodered:
+    build: ./nodered
+    ports:
+      - 1880:1880
+    volumes:
+      - ./nodered:/data

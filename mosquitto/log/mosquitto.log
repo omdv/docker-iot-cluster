@@ -1,0 +1,763 @@
+1526819575: mosquitto version 1.4.12 (build date 2017-06-01 13:03:46+0000) starting
+1526819575: Config loaded from /mosquitto/config/mosquitto.conf.
+1526819575: Opening ipv4 listen socket on port 1883.
+1526819575: Opening ipv6 listen socket on port 1883.
+1526819575: New connection from 172.19.0.2 on port 1883.
+1526819575: New client connected from 172.19.0.2 as federated_town (c1, k45).
+1526819576: New connection from 172.19.0.3 on port 1883.
+1526819576: New client connected from 172.19.0.3 as federated_edge_1 (c1, k45).
+1526819576: Socket error on client federated_edge_1, disconnecting.
+1526819632: New connection from 172.19.0.3 on port 1883.
+1526819632: New client connected from 172.19.0.3 as federated_edge_1 (c1, k45).
+1526819632: Socket error on client federated_edge_1, disconnecting.
+1526819642: Socket error on client federated_town, disconnecting.
+1526819644: New connection from 172.19.0.2 on port 1883.
+1526819644: New client connected from 172.19.0.2 as federated_town (c1, k45).
+1526819703: Socket error on client federated_town, disconnecting.
+1526819704: Error in poll: Interrupted system call.
+1526819704: mosquitto version 1.4.12 terminating
+1526837828: mosquitto version 1.4.12 (build date 2017-06-01 13:03:46+0000) starting
+1526837828: Config loaded from /mosquitto/config/mosquitto.conf.
+1526837828: Opening ipv4 listen socket on port 1883.
+1526837828: Opening ipv6 listen socket on port 1883.
+1526837828: New connection from 172.19.0.2 on port 1883.
+1526837828: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526837828: Socket error on client federated_edge_1, disconnecting.
+1526837829: New connection from 172.19.0.4 on port 1883.
+1526837829: New client connected from 172.19.0.4 as federated_town (c1, k45).
+1526837858: New connection from 172.19.0.2 on port 1883.
+1526837858: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526837858: Socket error on client federated_edge_1, disconnecting.
+1526838463: New connection from 172.19.0.2 on port 1883.
+1526838463: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526838463: Socket error on client federated_edge_1, disconnecting.
+1526838803: New connection from 172.19.0.1 on port 1883.
+1526838803: New client connected from 172.19.0.1 as om_125248613 (c1, k60).
+1526839002: New connection from 172.19.0.2 on port 1883.
+1526839002: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526839002: Socket error on client federated_edge_1, disconnecting.
+1526839436: New connection from 172.19.0.2 on port 1883.
+1526839436: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526839545: Socket error on client federated_town, disconnecting.
+1526839547: New connection from 172.19.0.4 on port 1883.
+1526839547: New client connected from 172.19.0.4 as federated_town (c1, k45).
+1526839547: Socket error on client federated_town, disconnecting.
+1526839629: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1526839837: New connection from 172.19.0.4 on port 1883.
+1526839837: New client connected from 172.19.0.4 as federated_town (c1, k45).
+1526839837: Socket error on client federated_town, disconnecting.
+1526839847: Socket error on client federated_edge_1, disconnecting.
+1526839849: New connection from 172.19.0.2 on port 1883.
+1526839849: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526840002: New connection from 172.19.0.4 on port 1883.
+1526840002: New client connected from 172.19.0.4 as federated_town (c1, k45).
+1526840012: Socket error on client federated_edge_1, disconnecting.
+1526840014: New connection from 172.19.0.2 on port 1883.
+1526840014: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526840083: Socket error on client federated_town, disconnecting.
+1526840083: Socket error on client federated_edge_1, disconnecting.
+1526840085: New connection from 172.19.0.4 on port 1883.
+1526840085: New client connected from 172.19.0.4 as federated_town (c1, k45).
+1526840086: New connection from 172.19.0.2 on port 1883.
+1526840086: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526840188: Socket error on client federated_edge_1, disconnecting.
+1526840188: Socket error on client federated_town, disconnecting.
+1526840191: New connection from 172.19.0.4 on port 1883.
+1526840191: New client connected from 172.19.0.4 as federated_town (c1, k45).
+1526840191: New connection from 172.19.0.2 on port 1883.
+1526840191: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526840206: Socket error on client federated_town, disconnecting.
+1526840206: Socket error on client federated_edge_1, disconnecting.
+1526840207: Error in poll: Interrupted system call.
+1526840207: mosquitto version 1.4.12 terminating
+1526840380: mosquitto version 1.4.12 (build date 2017-06-01 13:03:46+0000) starting
+1526840380: Config loaded from /mosquitto/config/mosquitto.conf.
+1526840380: Opening ipv4 listen socket on port 1883.
+1526840380: Opening ipv6 listen socket on port 1883.
+1526840380: New connection from 172.19.0.2 on port 1883.
+1526840380: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526840380: Sending CONNACK to federated_edge_1 (0, 0)
+1526840380: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840381: New connection from 172.19.0.4 on port 1883.
+1526840381: New client connected from 172.19.0.4 as federated_town (c1, k45).
+1526840381: Sending CONNACK to federated_town (0, 0)
+1526840381: Received SUBSCRIBE from federated_town
+1526840381: 	omdvFML/edge1 (QoS 0)
+1526840381: federated_town 0 omdvFML/edge1
+1526840381: Sending SUBACK to federated_town
+1526840390: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840390: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840400: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840400: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840410: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840410: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840420: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840420: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840425: Received PINGREQ from federated_edge_1
+1526840425: Sending PINGRESP to federated_edge_1
+1526840426: Received PINGREQ from federated_town
+1526840426: Sending PINGRESP to federated_town
+1526840430: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840430: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840440: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840440: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840450: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840450: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840460: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840460: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840470: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840470: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840470: Received PINGREQ from federated_edge_1
+1526840470: Sending PINGRESP to federated_edge_1
+1526840471: Received PINGREQ from federated_town
+1526840471: Sending PINGRESP to federated_town
+1526840480: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840480: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840490: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840490: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840496: New connection from 172.19.0.1 on port 1883.
+1526840496: New client connected from 172.19.0.1 as om_125248613 (c1, k60).
+1526840496: Sending CONNACK to om_125248613 (0, 0)
+1526840500: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840500: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840510: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840510: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840515: Received PINGREQ from federated_edge_1
+1526840515: Sending PINGRESP to federated_edge_1
+1526840516: Received PINGREQ from federated_town
+1526840516: Sending PINGRESP to federated_town
+1526840520: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840520: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840530: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840530: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840540: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840540: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840550: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840550: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840556: Received PINGREQ from om_125248613
+1526840556: Sending PINGRESP to om_125248613
+1526840560: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840560: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840560: Received PINGREQ from federated_edge_1
+1526840560: Sending PINGRESP to federated_edge_1
+1526840561: Received PINGREQ from federated_town
+1526840561: Sending PINGRESP to federated_town
+1526840570: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840570: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840574: Received DISCONNECT from om_125248613
+1526840574: Client om_125248613 disconnected.
+1526840580: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840580: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840582: New connection from 172.19.0.1 on port 1883.
+1526840582: New client connected from 172.19.0.1 as mqttspy132258061 (c1, k60).
+1526840582: Sending CONNACK to mqttspy132258061 (0, 0)
+1526840582: Received SUBSCRIBE from mqttspy132258061
+1526840582: 	mqtt-spy-daemon/# (QoS 0)
+1526840582: mqttspy132258061 0 mqtt-spy-daemon/#
+1526840582: Sending SUBACK to mqttspy132258061
+1526840583: Received PUBLISH from mqttspy132258061 (d0, q0, r0, m0, 'mqtt-spy-daemon/test1', ... (5 bytes))
+1526840583: Sending PUBLISH to mqttspy132258061 (d0, q0, r0, m0, 'mqtt-spy-daemon/test1', ... (5 bytes))
+1526840583: Received PUBLISH from mqttspy132258061 (d0, q0, r0, m0, 'mqtt-spy-daemon/test2', ... (4 bytes))
+1526840583: Sending PUBLISH to mqttspy132258061 (d0, q0, r0, m0, 'mqtt-spy-daemon/test2', ... (4 bytes))
+1526840583: Received PUBLISH from mqttspy132258061 (d0, q0, r0, m0, 'mqtt-spy-daemon/test3', ... (16 bytes))
+1526840583: Sending PUBLISH to mqttspy132258061 (d0, q0, r0, m0, 'mqtt-spy-daemon/test3', ... (16 bytes))
+1526840584: Received DISCONNECT from mqttspy132258061
+1526840584: Client mqttspy132258061 disconnected.
+1526840590: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840590: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840600: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840600: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840605: Received PINGREQ from federated_edge_1
+1526840605: Sending PINGRESP to federated_edge_1
+1526840606: Received PINGREQ from federated_town
+1526840606: Sending PINGRESP to federated_town
+1526840610: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840610: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840620: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840620: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840630: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840630: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840640: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840640: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840650: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840650: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840650: Received PINGREQ from federated_edge_1
+1526840650: Sending PINGRESP to federated_edge_1
+1526840651: Received PINGREQ from federated_town
+1526840651: Sending PINGRESP to federated_town
+1526840660: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840660: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840664: New connection from 172.19.0.1 on port 1883.
+1526840664: New client connected from 172.19.0.1 as om132412837 (c1, k60).
+1526840664: Sending CONNACK to om132412837 (0, 0)
+1526840670: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840670: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840679: Received SUBSCRIBE from om132412837
+1526840679: 	omdvFML/edge1 (QoS 0)
+1526840679: om132412837 0 omdvFML/edge1
+1526840679: Sending SUBACK to om132412837
+1526840680: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840680: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840680: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840690: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840690: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840690: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840695: Received PINGREQ from federated_edge_1
+1526840695: Sending PINGRESP to federated_edge_1
+1526840696: Received PINGREQ from federated_town
+1526840696: Sending PINGRESP to federated_town
+1526840700: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840700: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840700: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840710: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840710: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840710: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840720: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840720: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840720: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840730: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840730: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840730: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840739: Received PINGREQ from om132412837
+1526840739: Sending PINGRESP to om132412837
+1526840740: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840740: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840740: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840740: Received PINGREQ from federated_edge_1
+1526840740: Sending PINGRESP to federated_edge_1
+1526840741: Received PINGREQ from federated_town
+1526840741: Sending PINGRESP to federated_town
+1526840750: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840750: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840750: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840760: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840761: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840761: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840771: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840771: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840771: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840781: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840781: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840781: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840784: Socket error on client federated_town, disconnecting.
+1526840786: Received PINGREQ from federated_edge_1
+1526840786: Sending PINGRESP to federated_edge_1
+1526840786: New connection from 172.19.0.4 on port 1883.
+1526840786: New client connected from 172.19.0.4 as federated_town (c1, k45).
+1526840786: Sending CONNACK to federated_town (0, 0)
+1526840786: Received SUBSCRIBE from federated_town
+1526840786: 	omdvFML/edge1 (QoS 0)
+1526840786: federated_town 0 omdvFML/edge1
+1526840786: Sending SUBACK to federated_town
+1526840791: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840791: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840791: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840799: Received PINGREQ from om132412837
+1526840799: Sending PINGRESP to om132412837
+1526840801: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840801: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840801: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840811: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840811: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840811: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840821: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840821: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840821: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840831: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840831: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840831: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840831: Received PINGREQ from federated_edge_1
+1526840831: Sending PINGRESP to federated_edge_1
+1526840832: Received PINGREQ from federated_town
+1526840832: Sending PINGRESP to federated_town
+1526840841: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840841: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840841: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840851: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840851: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840851: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840856: Socket error on client federated_edge_1, disconnecting.
+1526840857: New connection from 172.19.0.2 on port 1883.
+1526840857: New client connected from 172.19.0.2 as federated_edge_1 (c1, k45).
+1526840857: Sending CONNACK to federated_edge_1 (0, 0)
+1526840857: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840857: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840857: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840859: Received PINGREQ from om132412837
+1526840859: Sending PINGRESP to om132412837
+1526840867: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840867: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840867: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840877: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840877: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840877: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840877: Received PINGREQ from federated_town
+1526840877: Sending PINGRESP to federated_town
+1526840887: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840887: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840887: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840897: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840897: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840897: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840902: Received PINGREQ from federated_edge_1
+1526840902: Sending PINGRESP to federated_edge_1
+1526840907: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840907: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840907: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840917: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840917: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840917: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840919: Received PINGREQ from om132412837
+1526840919: Sending PINGRESP to om132412837
+1526840922: Received PINGREQ from federated_town
+1526840922: Sending PINGRESP to federated_town
+1526840927: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840927: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840927: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840937: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840937: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840937: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840947: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840947: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840947: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840947: Received PINGREQ from federated_edge_1
+1526840947: Sending PINGRESP to federated_edge_1
+1526840957: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840957: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840957: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840967: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840967: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840967: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840967: Received PINGREQ from federated_town
+1526840967: Sending PINGRESP to federated_town
+1526840977: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840977: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840977: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840979: Received PINGREQ from om132412837
+1526840979: Sending PINGRESP to om132412837
+1526840987: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840987: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840987: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840992: Received PINGREQ from federated_edge_1
+1526840992: Sending PINGRESP to federated_edge_1
+1526840997: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840997: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526840997: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526841007: Received PUBLISH from federated_edge_1 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526841007: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526841007: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdvFML/edge1', ... (16 bytes))
+1526841012: Received PINGREQ from federated_town
+1526841012: Sending PINGRESP to federated_town
+1526841013: Socket error on client federated_edge_1, disconnecting.
+1526841013: Socket error on client federated_town, disconnecting.
+1526841014: Error in poll: Interrupted system call.
+1526841014: mosquitto version 1.4.12 terminating
+1526841424: Sending CONNACK to federated_edge (0, 0)
+1526841424: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841424: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (17 bytes))
+1526841425: Sending CONNACK to federated_town (0, 0)
+1526841425: Received SUBSCRIBE from federated_town
+1526841425: 	omdv/fml (QoS 0)
+1526841425: Sending SUBACK to federated_town
+1526841444: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841444: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841446: Sending CONNACK to om132412837 (0, 0)
+1526841464: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841464: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841464: Received SUBSCRIBE from om132412837
+1526841464: 	omdv/fml (QoS 0)
+1526841464: Sending SUBACK to om132412837
+1526841469: Received PINGREQ from federated_edge
+1526841469: Sending PINGRESP to federated_edge
+1526841470: Received PINGREQ from federated_town
+1526841470: Sending PINGRESP to federated_town
+1526841484: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841484: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841484: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841504: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841504: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841504: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841514: Received PINGREQ from federated_edge
+1526841514: Sending PINGRESP to federated_edge
+1526841515: Received PINGREQ from federated_town
+1526841515: Sending PINGRESP to federated_town
+1526841524: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841524: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841524: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841524: Received PINGREQ from om132412837
+1526841524: Sending PINGRESP to om132412837
+1526841544: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841544: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841544: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841559: Received PINGREQ from federated_edge
+1526841559: Sending PINGRESP to federated_edge
+1526841560: Received PINGREQ from federated_town
+1526841560: Sending PINGRESP to federated_town
+1526841564: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841564: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841564: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841584: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841584: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841584: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841584: Received PINGREQ from om132412837
+1526841584: Sending PINGRESP to om132412837
+1526841604: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841604: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841604: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841604: Received PINGREQ from federated_edge
+1526841604: Sending PINGRESP to federated_edge
+1526841605: Received PINGREQ from federated_town
+1526841605: Sending PINGRESP to federated_town
+1526841624: Received PUBLISH from federated_edge (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841624: Sending PUBLISH to federated_town (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841624: Sending PUBLISH to om132412837 (d0, q0, r0, m0, 'omdv/fml', ... (10 bytes))
+1526841905: Client federated_edge already connected, closing old connection.
+1526841906: Client federated_edge already connected, closing old connection.
+1526841906: Client federated_edge already connected, closing old connection.
+1526841907: Client federated_edge already connected, closing old connection.
+1526841907: Client federated_edge already connected, closing old connection.
+1526841908: Client federated_edge already connected, closing old connection.
+1526841908: Client federated_edge already connected, closing old connection.
+1526841909: Client federated_edge already connected, closing old connection.
+1526841909: Client federated_edge already connected, closing old connection.
+1526841910: Client federated_edge already connected, closing old connection.
+1526841910: Client federated_edge already connected, closing old connection.
+1526841911: Client federated_edge already connected, closing old connection.
+1526841911: Client federated_edge already connected, closing old connection.
+1526841912: Client federated_edge already connected, closing old connection.
+1526841912: Client federated_edge already connected, closing old connection.
+1526841913: Client federated_edge already connected, closing old connection.
+1526841913: Client federated_edge already connected, closing old connection.
+1526841914: Client federated_edge already connected, closing old connection.
+1526841914: Client federated_edge already connected, closing old connection.
+1526841915: Client federated_edge already connected, closing old connection.
+1526841915: Client federated_edge already connected, closing old connection.
+1526841916: Client federated_edge already connected, closing old connection.
+1526841916: Client federated_edge already connected, closing old connection.
+1526841917: Client federated_edge already connected, closing old connection.
+1526841917: Client federated_edge already connected, closing old connection.
+1526841918: Client federated_edge already connected, closing old connection.
+1526841918: Client federated_edge already connected, closing old connection.
+1526841919: Client federated_edge already connected, closing old connection.
+1526841919: Client federated_edge already connected, closing old connection.
+1526841920: Client federated_edge already connected, closing old connection.
+1526841920: Client federated_edge already connected, closing old connection.
+1526841921: Client federated_edge already connected, closing old connection.
+1526841921: Client federated_edge already connected, closing old connection.
+1526841922: Client federated_edge already connected, closing old connection.
+1526841922: Client federated_edge already connected, closing old connection.
+1526841923: Client federated_edge already connected, closing old connection.
+1526841923: Client federated_edge already connected, closing old connection.
+1526841924: Client federated_edge already connected, closing old connection.
+1526841924: Client federated_edge already connected, closing old connection.
+1526841925: Client federated_edge already connected, closing old connection.
+1526841925: Client federated_edge already connected, closing old connection.
+1526841926: Client federated_edge already connected, closing old connection.
+1526841926: Client federated_edge already connected, closing old connection.
+1526841927: Client federated_edge already connected, closing old connection.
+1526841927: Client federated_edge already connected, closing old connection.
+1526841928: Client federated_edge already connected, closing old connection.
+1526841928: Client federated_edge already connected, closing old connection.
+1526841929: Client federated_edge already connected, closing old connection.
+1526841929: Client federated_edge already connected, closing old connection.
+1526841930: Client federated_edge already connected, closing old connection.
+1526841930: Client federated_edge already connected, closing old connection.
+1526841931: Client federated_edge already connected, closing old connection.
+1526841931: Client federated_edge already connected, closing old connection.
+1526841932: Client federated_edge already connected, closing old connection.
+1526841932: Client federated_edge already connected, closing old connection.
+1526841933: Client federated_edge already connected, closing old connection.
+1526841933: Client federated_edge already connected, closing old connection.
+1526841934: Client federated_edge already connected, closing old connection.
+1526841934: Client federated_edge already connected, closing old connection.
+1526841935: Client federated_edge already connected, closing old connection.
+1526841935: Client federated_edge already connected, closing old connection.
+1526841936: Client federated_edge already connected, closing old connection.
+1526841936: Client federated_edge already connected, closing old connection.
+1526841937: Client federated_edge already connected, closing old connection.
+1526841937: Client federated_edge already connected, closing old connection.
+1526841938: Client federated_edge already connected, closing old connection.
+1526841938: Client federated_edge already connected, closing old connection.
+1526841939: Client federated_edge already connected, closing old connection.
+1526841939: Client federated_edge already connected, closing old connection.
+1526841940: Client federated_edge already connected, closing old connection.
+1526841940: Client federated_edge already connected, closing old connection.
+1526841942: Client federated_edge already connected, closing old connection.
+1526841942: Client federated_edge already connected, closing old connection.
+1526841943: Client federated_edge already connected, closing old connection.
+1526841943: Client federated_edge already connected, closing old connection.
+1526841944: Client federated_edge already connected, closing old connection.
+1526841944: Client federated_edge already connected, closing old connection.
+1526841945: Client federated_edge already connected, closing old connection.
+1526841945: Client federated_edge already connected, closing old connection.
+1526841946: Client federated_edge already connected, closing old connection.
+1526841946: Client federated_edge already connected, closing old connection.
+1526841947: Client federated_edge already connected, closing old connection.
+1526841947: Client federated_edge already connected, closing old connection.
+1526841948: Client federated_edge already connected, closing old connection.
+1526841948: Client federated_edge already connected, closing old connection.
+1526841949: Client federated_edge already connected, closing old connection.
+1526841949: Client federated_edge already connected, closing old connection.
+1526841950: Client federated_edge already connected, closing old connection.
+1526841950: Client federated_edge already connected, closing old connection.
+1526841951: Client federated_edge already connected, closing old connection.
+1526841951: Client federated_edge already connected, closing old connection.
+1526841952: Client federated_edge already connected, closing old connection.
+1526841952: Client federated_edge already connected, closing old connection.
+1526841953: Client federated_edge already connected, closing old connection.
+1526841953: Client federated_edge already connected, closing old connection.
+1526841954: Client federated_edge already connected, closing old connection.
+1526841954: Client federated_edge already connected, closing old connection.
+1526841955: Client federated_edge already connected, closing old connection.
+1526841955: Client federated_edge already connected, closing old connection.
+1526841956: Client federated_edge already connected, closing old connection.
+1526841956: Client federated_edge already connected, closing old connection.
+1526841957: Client federated_edge already connected, closing old connection.
+1526841957: Client federated_edge already connected, closing old connection.
+1526841958: Client federated_edge already connected, closing old connection.
+1526841958: Client federated_edge already connected, closing old connection.
+1526841959: Client federated_edge already connected, closing old connection.
+1526841959: Client federated_edge already connected, closing old connection.
+1526841960: Client federated_edge already connected, closing old connection.
+1526841960: Client federated_edge already connected, closing old connection.
+1526841961: Client federated_edge already connected, closing old connection.
+1526841961: Client federated_edge already connected, closing old connection.
+1526841962: Client federated_edge already connected, closing old connection.
+1526841962: Client federated_edge already connected, closing old connection.
+1526841963: Client federated_edge already connected, closing old connection.
+1526841963: Client federated_edge already connected, closing old connection.
+1526841964: Client federated_edge already connected, closing old connection.
+1526841964: Client federated_edge already connected, closing old connection.
+1526841965: Client federated_edge already connected, closing old connection.
+1526841965: Client federated_edge already connected, closing old connection.
+1526841966: Client federated_edge already connected, closing old connection.
+1526841966: Client federated_edge already connected, closing old connection.
+1526841967: Client federated_edge already connected, closing old connection.
+1526841967: Client federated_edge already connected, closing old connection.
+1526841968: Client federated_edge already connected, closing old connection.
+1526841968: Client federated_edge already connected, closing old connection.
+1526841969: Client federated_edge already connected, closing old connection.
+1526841969: Client federated_edge already connected, closing old connection.
+1526841970: Client federated_edge already connected, closing old connection.
+1526841970: Client federated_edge already connected, closing old connection.
+1526841971: Client federated_edge already connected, closing old connection.
+1526841971: Client federated_edge already connected, closing old connection.
+1526841972: Client federated_edge already connected, closing old connection.
+1526841972: Client federated_edge already connected, closing old connection.
+1526841973: Client federated_edge already connected, closing old connection.
+1526841973: Client federated_edge already connected, closing old connection.
+1526841974: Client federated_edge already connected, closing old connection.
+1526841974: Client federated_edge already connected, closing old connection.
+1526841975: Client federated_edge already connected, closing old connection.
+1526841975: Client federated_edge already connected, closing old connection.
+1526841976: Client federated_edge already connected, closing old connection.
+1526841976: Client federated_edge already connected, closing old connection.
+1526841977: Client federated_edge already connected, closing old connection.
+1526841977: Client federated_edge already connected, closing old connection.
+1526841978: Client federated_edge already connected, closing old connection.
+1526841978: Client federated_edge already connected, closing old connection.
+1526841979: Client federated_edge already connected, closing old connection.
+1526841979: Client federated_edge already connected, closing old connection.
+1526841980: Client federated_edge already connected, closing old connection.
+1526841980: Client federated_edge already connected, closing old connection.
+1526841981: Client federated_edge already connected, closing old connection.
+1526841981: Client federated_edge already connected, closing old connection.
+1526841982: Client federated_edge already connected, closing old connection.
+1526841982: Client federated_edge already connected, closing old connection.
+1526841983: Client federated_edge already connected, closing old connection.
+1526841983: Client federated_edge already connected, closing old connection.
+1526841984: Client federated_edge already connected, closing old connection.
+1526841984: Client federated_edge already connected, closing old connection.
+1526841985: Client federated_edge already connected, closing old connection.
+1526841985: Client federated_edge already connected, closing old connection.
+1526841986: Client federated_edge already connected, closing old connection.
+1526841986: Client federated_edge already connected, closing old connection.
+1526841987: Client federated_edge already connected, closing old connection.
+1526841987: Client federated_edge already connected, closing old connection.
+1526841988: Client federated_edge already connected, closing old connection.
+1526841988: Client federated_edge already connected, closing old connection.
+1526841989: Client federated_edge already connected, closing old connection.
+1526841989: Client federated_edge already connected, closing old connection.
+1526841990: Client federated_edge already connected, closing old connection.
+1526841990: Client federated_edge already connected, closing old connection.
+1526841991: Client federated_edge already connected, closing old connection.
+1526841991: Client federated_edge already connected, closing old connection.
+1526841993: Client federated_edge already connected, closing old connection.
+1526841993: Client federated_edge already connected, closing old connection.
+1526841994: Client federated_edge already connected, closing old connection.
+1526841994: Client federated_edge already connected, closing old connection.
+1526841995: Client federated_edge already connected, closing old connection.
+1526841995: Client federated_edge already connected, closing old connection.
+1526841996: Client federated_edge already connected, closing old connection.
+1526841996: Client federated_edge already connected, closing old connection.
+1526841997: Client federated_edge already connected, closing old connection.
+1526841997: Client federated_edge already connected, closing old connection.
+1526841998: Client federated_edge already connected, closing old connection.
+1526841998: Client federated_edge already connected, closing old connection.
+1526841999: Client federated_edge already connected, closing old connection.
+1526841999: Client federated_edge already connected, closing old connection.
+1526842000: Client federated_edge already connected, closing old connection.
+1526842000: Client federated_edge already connected, closing old connection.
+1526842001: Client federated_edge already connected, closing old connection.
+1526842001: Client federated_edge already connected, closing old connection.
+1526842002: Client federated_edge already connected, closing old connection.
+1526842002: Client federated_edge already connected, closing old connection.
+1526842003: Client federated_edge already connected, closing old connection.
+1526842003: Client federated_edge already connected, closing old connection.
+1526842004: Client federated_edge already connected, closing old connection.
+1526842004: Client federated_edge already connected, closing old connection.
+1526842005: Client federated_edge already connected, closing old connection.
+1526842005: Client federated_edge already connected, closing old connection.
+1526842006: Client federated_edge already connected, closing old connection.
+1526842006: Client federated_edge already connected, closing old connection.
+1526842007: Client federated_edge already connected, closing old connection.
+1526842007: Client federated_edge already connected, closing old connection.
+1526842008: Client federated_edge already connected, closing old connection.
+1526842008: Client federated_edge already connected, closing old connection.
+1526842009: Client federated_edge already connected, closing old connection.
+1526842009: Client federated_edge already connected, closing old connection.
+1526842010: Client federated_edge already connected, closing old connection.
+1526842010: Client federated_edge already connected, closing old connection.
+1526842011: Client federated_edge already connected, closing old connection.
+1526842011: Client federated_edge already connected, closing old connection.
+1526842012: Client federated_edge already connected, closing old connection.
+1526842012: Client federated_edge already connected, closing old connection.
+1526842013: Client federated_edge already connected, closing old connection.
+1526842013: Client federated_edge already connected, closing old connection.
+1526842014: Client federated_edge already connected, closing old connection.
+1526842014: Client federated_edge already connected, closing old connection.
+1526842015: Client federated_edge already connected, closing old connection.
+1526842015: Client federated_edge already connected, closing old connection.
+1526842016: Client federated_edge already connected, closing old connection.
+1526842016: Client federated_edge already connected, closing old connection.
+1526842017: Client federated_edge already connected, closing old connection.
+1526842017: Client federated_edge already connected, closing old connection.
+1526842018: Client federated_edge already connected, closing old connection.
+1526842018: Client federated_edge already connected, closing old connection.
+1526842019: Client federated_edge already connected, closing old connection.
+1526842019: Client federated_edge already connected, closing old connection.
+1526842020: Client federated_edge already connected, closing old connection.
+1526842020: Client federated_edge already connected, closing old connection.
+1526842021: Client federated_edge already connected, closing old connection.
+1526842021: Client federated_edge already connected, closing old connection.
+1526842022: Client federated_edge already connected, closing old connection.
+1526842022: Client federated_edge already connected, closing old connection.
+1526842023: Client federated_edge already connected, closing old connection.
+1526842023: Client federated_edge already connected, closing old connection.
+1526842024: Client federated_edge already connected, closing old connection.
+1526842024: Client federated_edge already connected, closing old connection.
+1526842025: Client federated_edge already connected, closing old connection.
+1526842025: Client federated_edge already connected, closing old connection.
+1526842026: Client federated_edge already connected, closing old connection.
+1526842026: Client federated_edge already connected, closing old connection.
+1526842027: Client federated_edge already connected, closing old connection.
+1526842027: Client federated_edge already connected, closing old connection.
+1526842028: Client federated_edge already connected, closing old connection.
+1526842028: Client federated_edge already connected, closing old connection.
+1526842029: Client federated_edge already connected, closing old connection.
+1526842029: Client federated_edge already connected, closing old connection.
+1526842030: Client federated_edge already connected, closing old connection.
+1526842030: Client federated_edge already connected, closing old connection.
+1526842031: Client federated_edge already connected, closing old connection.
+1526842031: Client federated_edge already connected, closing old connection.
+1526842032: Client federated_edge already connected, closing old connection.
+1526842032: Client federated_edge already connected, closing old connection.
+1526842033: Client federated_edge already connected, closing old connection.
+1526842033: Client federated_edge already connected, closing old connection.
+1526842035: Client federated_edge already connected, closing old connection.
+1526842035: Client federated_edge already connected, closing old connection.
+1526842036: Client federated_edge already connected, closing old connection.
+1526842036: Client federated_edge already connected, closing old connection.
+1526842037: Client federated_edge already connected, closing old connection.
+1526842037: Client federated_edge already connected, closing old connection.
+1526842038: Client federated_edge already connected, closing old connection.
+1526842038: Client federated_edge already connected, closing old connection.
+1526842039: Client federated_edge already connected, closing old connection.
+1526842039: Client federated_edge already connected, closing old connection.
+1526842040: Client federated_edge already connected, closing old connection.
+1526842040: Client federated_edge already connected, closing old connection.
+1526842041: Error in poll: Interrupted system call.
+1526842435: Client federated_edge already connected, closing old connection.
+1526842436: Client federated_edge already connected, closing old connection.
+1526842436: Client federated_edge already connected, closing old connection.
+1526842437: Client federated_edge already connected, closing old connection.
+1526842437: Client federated_edge already connected, closing old connection.
+1526842438: Client federated_edge already connected, closing old connection.
+1526842438: Client federated_edge already connected, closing old connection.
+1526842439: Client federated_edge already connected, closing old connection.
+1526842439: Client federated_edge already connected, closing old connection.
+1526842440: Client federated_edge already connected, closing old connection.
+1526842440: Client federated_edge already connected, closing old connection.
+1526842441: Client federated_edge already connected, closing old connection.
+1526842441: Client federated_edge already connected, closing old connection.
+1526842442: Client federated_edge already connected, closing old connection.
+1526842442: Client federated_edge already connected, closing old connection.
+1526842443: Client federated_edge already connected, closing old connection.
+1526842443: Client federated_edge already connected, closing old connection.
+1526842444: Client federated_edge already connected, closing old connection.
+1526842444: Client federated_edge already connected, closing old connection.
+1526842445: Client federated_edge already connected, closing old connection.
+1526842445: Client federated_edge already connected, closing old connection.
+1526842446: Client federated_edge already connected, closing old connection.
+1526842446: Client federated_edge already connected, closing old connection.
+1526842447: Client federated_edge already connected, closing old connection.
+1526842447: Client federated_edge already connected, closing old connection.
+1526842448: Client federated_edge already connected, closing old connection.
+1526842448: Client federated_edge already connected, closing old connection.
+1526842449: Client federated_edge already connected, closing old connection.
+1526842449: Client federated_edge already connected, closing old connection.
+1526842450: Client federated_edge already connected, closing old connection.
+1526842450: Client federated_edge already connected, closing old connection.
+1526842451: Client federated_edge already connected, closing old connection.
+1526842451: Client federated_edge already connected, closing old connection.
+1526842452: Client federated_edge already connected, closing old connection.
+1526842452: Client federated_edge already connected, closing old connection.
+1526842453: Client federated_edge already connected, closing old connection.
+1526842453: Client federated_edge already connected, closing old connection.
+1526842454: Client federated_edge already connected, closing old connection.
+1526842454: Client federated_edge already connected, closing old connection.
+1526842455: Client federated_edge already connected, closing old connection.
+1526842455: Client federated_edge already connected, closing old connection.
+1526842456: Client federated_edge already connected, closing old connection.
+1526842456: Client federated_edge already connected, closing old connection.
+1526842457: Client federated_edge already connected, closing old connection.
+1526842457: Client federated_edge already connected, closing old connection.
+1526842458: Client federated_edge already connected, closing old connection.
+1526842458: Client federated_edge already connected, closing old connection.
+1526842459: Client federated_edge already connected, closing old connection.
+1526842459: Client federated_edge already connected, closing old connection.
+1526842460: Client federated_edge already connected, closing old connection.
+1526842460: Client federated_edge already connected, closing old connection.
+1526842461: Client federated_edge already connected, closing old connection.
+1526842461: Client federated_edge already connected, closing old connection.
+1526842462: Client federated_edge already connected, closing old connection.
+1526842462: Client federated_edge already connected, closing old connection.
+1526842463: Client federated_edge already connected, closing old connection.
+1526842463: Client federated_edge already connected, closing old connection.
+1526842464: Client federated_edge already connected, closing old connection.
+1526842464: Client federated_edge already connected, closing old connection.
+1526842465: Client federated_edge already connected, closing old connection.
+1526842465: Client federated_edge already connected, closing old connection.
+1526842466: Client federated_edge already connected, closing old connection.
+1526842466: Client federated_edge already connected, closing old connection.
+1526842467: Client federated_edge already connected, closing old connection.
+1526842467: Client federated_edge already connected, closing old connection.
+1526842468: Client federated_edge already connected, closing old connection.
+1526842468: Client federated_edge already connected, closing old connection.
+1526842469: Client federated_edge already connected, closing old connection.
+1526842469: Client federated_edge already connected, closing old connection.
+1526842470: Client federated_edge already connected, closing old connection.
+1526842470: Client federated_edge already connected, closing old connection.
+1526842471: Client federated_edge already connected, closing old connection.
+1526842471: Client federated_edge already connected, closing old connection.
+1526842472: Client federated_edge already connected, closing old connection.
+1526842472: Client federated_edge already connected, closing old connection.
+1526842473: Client federated_edge already connected, closing old connection.
+1526842473: Client federated_edge already connected, closing old connection.
+1526842474: Client federated_edge already connected, closing old connection.
+1526842474: Client federated_edge already connected, closing old connection.
+1526842476: Error in poll: Interrupted system call.
+1526843039: Error in poll: Interrupted system call.
+1526870028: Error in poll: Interrupted system call.
+1526957761: Error in poll: Interrupted system call.
+1526958441: Error in poll: Interrupted system call.
