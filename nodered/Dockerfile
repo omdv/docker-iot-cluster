@@ -30,5 +30,8 @@ ENV NODE_PATH=/usr/src/node-red/node_modules:/data/node_modules
 # Install dashboard
 RUN npm i node-red-dashboard
 
+# Install plugins here
+RUN npm install node-red-contrib-influxdb
+
 # Launch
 CMD ["npm", "start", "--", "--userDir", "/data"]

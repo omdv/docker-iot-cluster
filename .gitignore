@@ -1,5 +1,7 @@
+.ipynb_checkpoints/*
+grafana/storage/*
+influxdb/data/*
 mosquitto/data/*
+mosquitto/log/*
 nodered/lib/*
-nodered/*
-!nodered/Dockerfile
-!nodered/package.json
+nodered/*.backup

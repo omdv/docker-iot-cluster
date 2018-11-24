@@ -13,16 +13,20 @@ services:
     volumes:
       - ./edge:/app
     environment:
-      - MQTT_TOPIC=iot
+      - MQTT_TOPIC_PREFIX=iot
       - MQTT_KEEPALIVE_INTERVAL=45
+      - MQTT_ACQ_FREQUENCY_SEC=10
+    depends_on:
+      - hub
 
-  town:
-    build: ./town
+  hub:
+    build: ./hub
     volumes:
-      - ./town:/app
+      - ./hub:/app
     environment:
-      - MQTT_TOPIC=iot
+      - MQTT_TOPIC_PREFIX=iot
       - MQTT_KEEPALIVE_INTERVAL=45
+      - INFLUXDB_DB=iotdb
 
   nodered:
     build: ./nodered
@@ -30,3 +34,23 @@ services:
       - 1880:1880
     volumes:
       - ./nodered:/data
+
+  influxdb:
+    image: influxdb:1.5.4-alpine
+    ports:
+      - 8086:8086
+    environment:
+      - INFLUXDB_DB=iotdb
+      - INFLUXDB_DATA_ENGINE=tsm1
+      - INFLUXDB_REPORTING_DISABLED=false
+    volumes:
+      - ./influxdb/data:/var/lib/influxdb
+
+  grafana:
+    image: grafana/grafana:latest
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=secret
+    ports:
+      - 3000:3000
+    volumes:
+      - ./grafana/storage:/var/lib/grafana
