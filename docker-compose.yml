@@ -8,10 +8,10 @@ services:
     volumes:
       - ./mosquitto:/mosquitto
 
-  edge:
-    build: ./edge
+  device:
+    build: ./device
     volumes:
-      - ./edge:/app
+      - ./device:/app
     environment:
       - MQTT_TOPIC_PREFIX=iot
       - MQTT_KEEPALIVE_INTERVAL=45
@@ -27,13 +27,14 @@ services:
       - MQTT_TOPIC_PREFIX=iot
       - MQTT_KEEPALIVE_INTERVAL=45
       - INFLUXDB_DB=iotdb
+      - SCHEMA_MEASUREMENT=edge
 
-  nodered:
-    build: ./nodered
-    ports:
-      - 1880:1880
-    volumes:
-      - ./nodered:/data
+  # nodered:
+  #   image: nodered/node-red-docker:slim-v8
+  #   ports:
+  #     - 1880:1880
+  #   volumes:
+  #     - ./nodered:/data
 
   influxdb:
     image: influxdb:1.5.4-alpine
@@ -46,11 +47,37 @@ services:
     volumes:
       - ./influxdb/data:/var/lib/influxdb
 
-  grafana:
-    image: grafana/grafana:latest
-    environment:
-      - GF_SECURITY_ADMIN_PASSWORD=secret
+  # grafana:
+  #   image: grafana/grafana:latest
+  #   environment:
+  #     - GF_SECURITY_ADMIN_PASSWORD=secret
+  #   ports:
+  #     - 3000:3000
+  #   volumes:
+  #     - ./grafana/storage:/var/lib/grafana
+
+  chronograf:
+    image: chronograf:alpine
     ports:
-      - 3000:3000
+      - 8888:8888
     volumes:
-      - ./grafana/storage:/var/lib/grafana
+      - ./chronograf:/var/lib/chronograf
+
+  kapacitor:
+    build: ./kapacitor
+    volumes:
+      - ./kapacitor/data:/var/lib/kapacitor
+      - ./kapacitor/kapacitor.conf:/etc/kapacitor/kapacitor.conf:ro
+    ports:
+      - 9092:9092
+    depends_on:
+      - influxdb
+
+  pyserver:
+    build: ./pyserver
+    environment:
+      - PORT=50051
+    ports:
+      - 50051:50051
+    volumes:
+      - ./api:/usr/src/app/proto

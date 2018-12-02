@@ -5,3 +5,5 @@ mosquitto/data/*
 mosquitto/log/*
 nodered/lib/*
 nodered/*.backup
+nodered/node_modules
+nodered/package-lock.json
