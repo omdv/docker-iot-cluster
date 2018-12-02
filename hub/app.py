@@ -16,6 +16,9 @@ INFLUX_HOST = "influxdb"
 INFLUX_PORT = 8086
 INFLUX_DB = os.environ['INFLUXDB_DB']
 
+# INFLUX schema
+SCHEMA_MEASUREMENT = os.environ['SCHEMA_MEASUREMENT']
+
 # connect to influx
 influx = InfluxDBClient(
     host=INFLUX_HOST,
@@ -26,9 +29,9 @@ influx = InfluxDBClient(
 def save_to_influx(msg):
     payload = loads(msg.payload)
     data = [{
-        "measurement": "edge",
+        "measurement": SCHEMA_MEASUREMENT,
         "tags": {
-            "host": payload["deviceID"]
+            "uuid": payload["uuid"]
         },
         "time": datetime.utcnow().isoformat(),
         "fields": {

@@ -33,15 +33,13 @@ def simulate_sensor(params):
 
 def construct_payload(params):
     payload = {
-        "deviceType": "edge",
-        "deviceID": EDGE_HOST,
+        "uuid": EDGE_HOST,
         "sensor": simulate_sensor(params)
     }
     return dumps(payload)
 
 
 def on_connect(client, userdata, flags, rc):
-    logging.info(client, userdata)
     logging.info("Connected with result code {0}".format(str(rc)))
 
 
