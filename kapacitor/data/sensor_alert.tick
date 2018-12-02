@@ -1,0 +1,8 @@
+dbrp "iotdb"."autogen"
+
+stream
+    |from()
+        .measurement('edge')
+    |alert()
+        .crit(lambda: int("sensor") < 1)
+        .log('/tmp/alerts.log')

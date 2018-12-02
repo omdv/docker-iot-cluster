@@ -1,0 +1,52 @@
+FROM frolvlad/alpine-python-machinelearning:latest
+
+# KAPACITOR part
+RUN echo 'hosts: files dns' >> /etc/nsswitch.conf
+
+ENV KAPACITOR_VERSION 1.5.1
+
+RUN set -ex && \
+    apk add --no-cache --virtual .build-deps wget gnupg tar git zip && \
+    for key in \
+        05CE15085FC09D18E99EFB22684A14CF2582E0C5 ; \
+    do \
+        gpg --keyserver ha.pool.sks-keyservers.net --recv-keys "$key" || \
+        gpg --keyserver pgp.mit.edu --recv-keys "$key" || \
+        gpg --keyserver keyserver.pgp.com --recv-keys "$key" ; \
+    done && \
+    wget --no-verbose https://dl.influxdata.com/kapacitor/releases/kapacitor-${KAPACITOR_VERSION}-static_linux_amd64.tar.gz.asc && \
+    wget --no-verbose https://dl.influxdata.com/kapacitor/releases/kapacitor-${KAPACITOR_VERSION}-static_linux_amd64.tar.gz && \
+    gpg --batch --verify kapacitor-${KAPACITOR_VERSION}-static_linux_amd64.tar.gz.asc kapacitor-${KAPACITOR_VERSION}-static_linux_amd64.tar.gz && \
+    mkdir -p /usr/src && \
+    tar -C /usr/src -xzf kapacitor-${KAPACITOR_VERSION}-static_linux_amd64.tar.gz && \
+    rm -f /usr/src/kapacitor-*/kapacitor.conf && \
+    chmod +x /usr/src/kapacitor-*/* && \
+    cp -a /usr/src/kapacitor-*/* /usr/bin/ && \
+    rm -rf *.tar.gz* /usr/src /root/.gnupg && \
+    apk del .build-deps
+COPY kapacitor.conf /etc/kapacitor/kapacitor.conf
+
+EXPOSE 9092
+
+VOLUME /var/lib/kapacitor
+
+# ADD PYTHON libraries
+COPY requirements.txt /requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+# Download and install kapacitor python library
+#RUN wget --no-verbose https://dl.influxdata.com/kapacitor/releases/python-kapacitor_udf-${KAPACITOR_VERSION}.tar.gz &&
+#    pip install python-kapacitor_udf-${KAPACITOR_VERSION}.tar.gz && \
+#    rm -rf *.tar.gz*
+RUN wget https://github.com/omdv/kapacitor/archive/python3.zip && \
+    unzip python3.zip && \
+    cd kapacitor-python3/udf/agent/py && \
+    pip install . && \
+    cd && \
+    rm -rf *.zip && \
+    rm -rf kapacitor-python3
+
+# Entrypoint
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["kapacitord"]
