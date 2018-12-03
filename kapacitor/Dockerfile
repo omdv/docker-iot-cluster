@@ -36,6 +36,10 @@ VOLUME /var/lib/kapacitor
 RUN go get google.golang.org/grpc && \
     go get -u github.com/influxdata/kapacitor/udf
 
+# Copy protocol definition
+RUN mkdir -p /go/src/api
+COPY api.pb.go /go/src/api/api.pb.go
+
 # Compile the script
 COPY udf_script.go udf_script.go
 RUN go build -o udf_script udf_script.go

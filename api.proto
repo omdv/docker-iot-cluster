@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package kapacitor;
+
+// service, encode a plain text 
+service CalcService {
+    // request a service of encode
+    rpc Calculate(Request) returns (Response) {}
+}
+
+
+message Request {
+    string payload = 1;
+}
+
+message Response {
+    string payload = 1;
+}

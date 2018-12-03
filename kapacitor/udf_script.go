@@ -8,6 +8,17 @@ import (
 	"os"
 
 	"github.com/influxdata/kapacitor/udf/agent"
+	
+	"google.golang.org/grpc"
+	pb "api"
+	"context"
+	"time"
+	"fmt"
+	"strconv"
+)
+
+const (
+	address     = "pyserver:50051"
 )
 
 // An Agent.Handler that computes a moving average of the data it receives.
@@ -137,6 +148,31 @@ func (a *avgHandler) Point(p *agent.Point) error {
 		a.state[p.Group] = state
 	}
 	avg := state.update(value)
+	// avg = -1.234
+
+	// --- GRPC ----
+	conn, err := grpc.Dial(address, grpc.WithInsecure())
+	if err != nil {
+		log.Fatalf("did not connect: %v", err)
+	}
+	defer conn.Close()
+	c := pb.NewCalcServiceClient(conn)
+	
+	// Contact the server and print out its response.
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+
+	// Submit a request and parse it
+	r, err := c.Calculate(ctx, &pb.Request{Payload: fmt.Sprintf("%e", avg)})
+	if err != nil {
+		log.Fatalf("Calculation failure: %v", err)
+	}
+	s, err := strconv.ParseFloat(r.Payload, 64)
+	if err != nil {
+		log.Fatalf("Parsing failure: %v", err)
+	}
+    avg = s
+	// ----------
 
 	// Re-use the existing point so we keep the same tags etc.
 	p.FieldsDouble = map[string]float64{a.as: avg}
