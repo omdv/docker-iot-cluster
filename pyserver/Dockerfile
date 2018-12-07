@@ -1,19 +1,18 @@
-FROM python:3.7.1-alpine3.7
+FROM frolvlad/alpine-python-machinelearning:latest
 
 RUN mkdir -p /usr/src/app
 COPY requirements.txt /usr/src/app/requirements.txt
 WORKDIR /usr/src/app
 
-RUN apk --update add python py-pip openssl ca-certificates py-openssl wget
+# Since grpc takes long time to install - specify explicitly
 RUN apk --update add --virtual build-dependencies libffi-dev openssl-dev python3-dev build-base \
   && apk --update add --no-cache libstdc++ \
   && pip install --upgrade pip \
-  && pip install -r requirements.txt \
+  && pip install 'grpcio==1.16.1' 'grpcio-tools==1.16.1' 'protobuf==3.6.1' \
   && apk del build-dependencies
 
-# Compile proto
-# COPY api.proto /usr/src/app/api.proto
-# RUN python3 -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. api.proto
+# Now install requirements
+RUN pip install -r requirements.txt
 
 EXPOSE 50051
 

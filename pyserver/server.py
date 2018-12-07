@@ -5,6 +5,7 @@ import api_pb2
 import api_pb2_grpc
 import grpc
 import logging
+import numpy as np
 
 PORT = os.environ['PORT']
 
@@ -12,14 +13,31 @@ PORT = os.environ['PORT']
 class CService(api_pb2_grpc.CalcServiceServicer):
 
     def Calculate(self, request, context):
+        logging.debug("Received {}".format(request.payload))
         try:
-            logging.info("Received {}".format(request.payload))
-            value = str(-1.0 * float(request.payload))
+            times, data = deserialize(request.payload)
+            logging.debug("Converted to {}".format(data))
+            value = np.mean(data)
         except ValueError:
-            logging.info("Cannot parse {} to float".format(request.payload))
-            value = str(-1.0)
+            logging.error("Cannot parse {}".format(request.payload))
+            value = -1.0
         time.sleep(2)
-        return api_pb2.Response(payload=value)
+        return api_pb2.Response(payload=str(value))
+
+
+def deserialize(request):
+    values, timeseries = []
+    request = request.split(",")
+    size = int(request[0])
+    try:
+        for i in range(size):
+            timeseries.append(time.localtime(int(request[i+1])/1e9))
+            values.append(float(request[i+1+size]))
+    except IndexError:
+        logging.error("Mismatch of serial string dimensions")
+        timeseries = []
+        values = []
+    return timeseries, values
 
 
 def serve():
@@ -35,5 +53,5 @@ def serve():
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.DEBUG)
     serve()

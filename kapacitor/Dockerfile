@@ -41,8 +41,8 @@ RUN mkdir -p /go/src/api
 COPY api.pb.go /go/src/api/api.pb.go
 
 # Compile the script
-COPY udf_script.go udf_script.go
-RUN go build -o udf_script udf_script.go
+COPY grpc_udf.go grpc_udf.go
+RUN go build -o grpc_udf grpc_udf.go
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
